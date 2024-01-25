@@ -15,11 +15,13 @@ function Hero() {
           <div>
             <button className='m-2'>Use Defi</button>
             <button className='m-2'>FAQ</button>
+
           </div>
-    </div>
-    <div className='bg-black'>
+          <div className='bg-black'>
     <p className='text-center text-white text-2xl font-bold'>Total Volume Secured: $42,104,783,662.47</p>
         </div>
+    </div>
+
     </div>
   )
 }
