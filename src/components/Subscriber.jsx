@@ -8,8 +8,8 @@ function Subscriber() {
          <input type="email" placeholder='Enter your email' className="p-3 rounded-3xl mr-2" />
          <button className="mt-2 md:mt-0">Sign Up</button>
       </div>
-      <div className='flex '>
-          <input type="checkbox" className='sm:mr-1 md:mr-2 '/>
+      <div className='flex items-center justify-center'>
+          <input type="checkbox" className='md:mr-2 '/>
           <p className="">Yes, i agree to recieve email communications from Defi</p>
     </div>
     </div>
