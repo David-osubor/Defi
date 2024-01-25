@@ -9,13 +9,16 @@ function App() {
 
 
   return (
-  <div className='bg-black'>
+  <div>
     <Navbar/>
+
     <Hero/>
+    <div className='bg-black'>
     <About/>
     <Developer/>
     <Subscriber/>
     <Footer/>
+    </div>
     </div> 
     
   )
