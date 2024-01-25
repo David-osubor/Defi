@@ -9,12 +9,12 @@ function Navbar() {
     setNav(!nav)
   }
   return (
-    <div className="w-full h-[80px] bg-black">
+    <div className="w-full h-[90px] bg-black">
        <div className="container mx-auto px-4 flex justify-between items-center h-full">
       <div >
         <h1 className="text-[#00deff]">DEFI</h1>
         </div>
-      <div className='hidden md:block'>
+      <div className='hidden lg:block'>
         <ul className="flex text-white cursor-pointer">
           <li>Platform</li>
           <li>Developers</li>
@@ -25,7 +25,7 @@ function Navbar() {
 
       </div>
             {/* mobile navber */}
-          <div onClick={handleNav} className='md:hidden'>
+          <div onClick={handleNav} className='lg:hidden'>
                 {nav ? <AiOutlineClose size={30} className='text-white'/> :
                 <AiOutlineMenu size={30} className='text-white'/>}
            
