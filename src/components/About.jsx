@@ -3,7 +3,7 @@ import { VscServerProcess } from 'react-icons/vsc';
 function About() {
   return (
     <div className="w-full bg-black text-white text-center">
-    <div className='max-w-[1240px] mx-auto px-4 py-16 w-full  '>
+    <div className='max-w-[1240px] mx-auto px-4  w-full  '>
         <div>
             <h1 className="py-4">A Growing Protocol Ecosystem</h1>
             <p className="py-4 ">The Defi protocol system empowers developers, liquidity providers,

@@ -13,13 +13,13 @@ function App() {
     <Navbar/>
 
     <Hero/>
-    <div className='bg-black'>
+
     <About/>
     <Developer/>
     <Subscriber/>
     <Footer/>
     </div>
-    </div> 
+    
     
   )
 }
